@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel-Flights-Air">
+    <title>AirTrip Travel</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <i class="menu-burger fa fa-bars"></i>
+                <div class="logo">
+                    <img src="./IMG/logo.webp" alt="Logo">
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#destination">Explore Destinations</a></li>
+                        <li><a href="#plan-your-trip">Plan Your Trip</a></li>
+                        <li><a href="#travel-tips">Travel Tips</a></li>
+                        <li><a href="#more">More <i class="fa-solid fa-angle-down"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="user-area">
+                    <button type="button" id="log-in" aria-label="log-in"><i class="fa-solid fa-right-to-bracket"></i></button>
+                    <button class="button" id="sign-in">Sign in</button>
+                    <button type="button" id="help" aria-label="contact-us"><i class="fa-solid fa-phone"></i></button>
+                    <button type="button" id="contact">Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <div class="main-heading">
+                            <h1>Discover Your Dream Destinations with Our Travel Package</h1>
+                        </div>
+                        <div class="sub-heading">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                commodo diam libero vitae erat.</p>
+                            <button type="button" id="contact">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="banner-part-2">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./IMG/swiper-slide-1.webp" alt="" loading="eager">
+                                </div>
+                                <div class="swiper-slide"><img src="./IMG/swiper-slide-2.webp" alt=""></div>
+                                <div class="swiper-slide"><img src="./IMG/swiper-slide-3.webp" alt=""></div>
+                                <div class="swiper-slide"><img src="./IMG/swiper-slide-4.webp" alt=""></div>
+                                <div class="swiper-slide"><img src="./IMG/swiper-slide-5.webp" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-world">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <div class="heading-part-text">
+                            <h2>Our World</h2>
+                            <p>As a family run business, nothing is more important than our relationship with our
+                                clients.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="our-world-card-layout">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/card-1-bg.webp" alt="" loading="eager">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Jungle</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/card-2-bg.webp" alt="" loading="eager">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Sea</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/card-bg-3.webp" alt="" loading="eager">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Hills</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/swiper-card-4.webp" alt="" loading="eager">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Historical Places</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/lakes.webp" alt="">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Lakes</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/waterfalls.webp" alt="">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Waterfalls</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="card-bg">
+                                        <img src="./IMG/tribal.webp" alt="">
+                                    </figure>
+                                    <figure class="circle">
+                                        <img src="./IMG/Ellipse 8.webp" alt="">
+                                    </figure>
+                                    <p>Tribal Villages</p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"><i class="fa fa-arrow-right"></i></div>
+                            <div class="swiper-button-prev"><i class="fa fa-arrow-left"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <p class="head">Our Story</p>
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.</p>
+                        <button type="button" id="contact">Contact Us</button>
+                    </div>
+                    <div class="about-part-2">
+                        <div class="about-card-layout">
+                            <figure id="about-card-1">
+                                <img src="./IMG/about-card-image-2.webp" alt="">
+                            </figure>
+                            <figure id="about-card-2">
+                                <img src="./IMG/about-image-card.webp" alt="">
+                            </figure>
+                            <figure id="plane">
+                                <img src="./IMG/plane-clip-art.webp" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destinations" id="destinations">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <p class="head">Explore</p>
+                        <h2>Discover Your Dream Destinations</h2>
+                        <p>Browse through our collection of popular travel destinations.</p>
+                    </div>
+                    <div class="destination-part-2">
+                        <div class="destination-card-layout">
+                            <div class="dest-card" id="paris">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-1.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Paris</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                            <div class="dest-card" id="tokyo">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-4.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Tokyo</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                            <div class="dest-card" id="bali">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-2.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Bali</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                            <div class="dest-card" id="new-york">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-5.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>New York</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                            <div class="dest-card" id="sydney">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-3.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Sydney</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                            <div class="dest-card" id="barcelona">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/dest-card-img-6.webp" alt="">
+                                    </figure>
+                                    <figure id="social-react">
+                                        <img src="./IMG/social-react-frame.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Barcelona</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" id="contact">See all</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>FAQ</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                    <div class="faq-content">
+                        <div class="accordion-wrapper">
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>How do I book a trip on your website?</p>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>What payment methods do you accept?</p>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>Is my payment secure?</p>
+                                    <i class="ico fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>When will my credit card be charged?</p>
+                                    <i class="ico fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>Can I cancel or modify my booking?</p>
+                                    <i class="ico fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>What are your cancellation and refund policies?</p>
+                                    <i class="ico fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                            <div class="question-answers">
+                                <div class="question">
+                                    <p>Do I need a visa to travel to my destination?</p>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                        interdum
+                                        nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
+                                        id
+                                        rutrum lorem imperdiet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <div class="heading-part-1">
+                            <p class="sub-head">Blog</p>
+                            <h2>Insights on Branding</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="button">
+                            <button type="button" id="contact">See all</button>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-card-layout">
+                            <div class="blog-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/blog-card-img-1.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Blog title heading will go here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                                <div class="button">
+                                    <button>Read more <i class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="blog-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/blog-card-img-2.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Blog title heading will go here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                                <div class="button">
+                                    <button>Read more <i class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="blog-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./IMG/blog-card-img-3.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Blog title heading will go here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros.</p>
+                                </div>
+                                <div class="button">
+                                    <button>Read more <i class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-layout">
+                        <img src="./IMG/Ellipse-1.webp" alt="" id="bg-image-1">
+                        <img src="./IMG/Ellipse 2.webp" alt="" id="bg-image-2">
+                        <img src="./IMG/Ellipse 3.webp" alt="" id="bg-image-3">
+                        <img src="./IMG/Ellipse 4.webp" alt="" id="bg-image-4">
+                        <div class="contact-content">
+                            <p class="sub-head">Contact</p>
+                            <h2>Together, we can bring your next major project to life.</h2>
+                            <p>Enable InTonel on the device you are currently utilizing.</p>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="button" id="contact">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-primary-part-1">
+                        <div class="brand-logo">
+                            <img src="./IMG/brand-footer-logo.webp" alt="">
+                        </div>
+                        <div class="footer-menu">
+                            <div class="menu-list">
+                                <div class="list-head">
+                                    <p class="head">About Us</p>
+                                </div>
+                                <ul class="list-item">
+                                    <li><a href="#explore">Explore</a></li>
+                                    <li><a href="#destinations">Destinations</a></li>
+                                    <li><a href="#packages">Packages</a></li>
+                                    <li><a href="#hotels">Hotels</a></li>
+                                    <li><a href="#flights">Flights</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-list">
+                                <div class="list-head">
+                                    <p class="head">Contact Us</p>
+                                </div>
+                                <ul class="list-item">
+                                    <li><a href="#faq">FAQs</a></li>
+                                    <li><a href="#terms">Terms</a></li>
+                                    <li><a href="#privacy">Privacy</a></li>
+                                    <li><a href="#careers">Careers</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-list">
+                                <div class="list-head">
+                                    <p class="head">Support</p>
+                                </div>
+                                <ul class="list-item">
+                                    <li><a href="#afiiliates">Affiliates</a></li>
+                                    <li><a href="#sitemap">Sitemap</a></li>
+                                    <li><a href="#social-media">Social Media</a></li>
+                                    <li><a href="http://www.facebook.com">Facebook</a></li>
+                                    <li><a href="http://www.x.com">Twitter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-primary-part-2">
+                        <div class="subscribe">
+                            <p class="head">Subscribe</p>
+                            <p>Join our mailing list for the latest updates and promotions.</p>
+                        </div>
+                        <div class="contact-form">
+                            <div class="email-form">
+                                <form action="">
+                                    <input type="email" placeholder="Your email">
+                                </form>
+                                <button type="button" id="contact">Contact</button>
+                            </div>
+                            <p>By subscribing, you agree to our Privacy Policy and Terms of Service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-secondary-menu">
+                        <ul>
+                            <li>&copy; 2023 Uponreturn. All rights reserved.</li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#cookie">Cookie Settings</a></li>
+                        </ul>
+                    </div>
+                    <ul class="footer-social-menu">
+                        <li><a href="https://www.facebook.com" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.x.com" aria-label="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://in.linkedin.com" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com" aria-label="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".banner-part-2 .mySwiper", {
+            autoplay: {
+                delay: 3000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".our-world-card-layout .mySwiper", {
+            slidesPerView: 3.5,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                1024:{
+                    slidesPerView: 3.5,
+                },
+                992:{
+                    slidesPerView: 3,
+                },
+                768:{
+                    slidesPerView: 2.5,
+                },
+                576:{
+                    slidesPerView: 2,
+                },
+                480:{
+                    slidesPerView: 2.5,
+                    spaceBetween: 15,
+                },
+                350:{
+                    slidesPerView: 1.8,
+                    spaceBetween: 15,
+                }
+            }
+        });
+    </script>
+    <script src="./JS/script.jquery.js"></script>
+</body>
+
+</html>
