@@ -1,0 +1,2052 @@
+@media screen and (max-width: 1440px) {
+
+    /* ============================= Navbar =========================== */
+
+    .navbar .container .user-area {
+        width: 25%;
+    }
+
+    #sign-in {
+        padding: 12px 18px;
+        margin-right: 15px;
+    }
+
+    .fa-angle-down {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
+    /* ================ banner =============== */
+
+    .banner {
+        background: linear-gradient(rgb(18, 38, 32), rgb(18, 38, 32)), url(../IMG/waves.png) no-repeat;
+        background-position: top 130% !important;
+    }
+
+    .banner .container {
+        width: 100%;
+    }
+
+    .banner .container .row {
+        padding-top: 5% !important;
+        justify-content: space-between !important;
+    }
+
+    .banner .container .row .heading .main-heading {
+        margin-left: 3%;
+    }
+
+    .banner .container .row .heading .sub-heading {
+        width: 45%;
+        margin-right: 2.5%;
+    }
+
+    .banner-part-2{
+        height: 48% !important;
+    }
+
+    /* ================= our world =================== */
+
+    .our-world {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* =============== banner ================= */
+
+    .banner .container .row .heading .main-heading h1 {
+        font-size: 50px;
+    }
+
+    /* ==================== our world ====================== */
+
+    .our-world {
+        height: 800px;
+        background-size: 30% 50%;
+    }
+
+    /* ===================== about ===================== */
+
+    .about-us .container .row .about-part-2 .about-card-layout #about-card-2 {
+        left: 40%;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog .container .row .heading {
+        width: 90%;
+    }
+
+    /* ====================== contact ===================== */
+
+    .contact {
+        height: 500px;
+        padding: 53px 0;
+    }
+
+    .contact .container .row .contact-layout {
+        padding: 64px 200px;
+    }
+
+    .contact .container .row .contact-layout .contact-content {
+        height: 70%;
+    }
+
+    /* =================== footer ==================== */
+
+    .footer-primary .container .row {
+        width: 95%;
+    }
+
+    .footer-primary .container .footer-primary-part-1 {
+        width: 45%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* ============================= Navbar =========================== */
+
+    .navbar .container .logo {
+        width: 10%;
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .navbar .container .user-area {
+        width: 25% !important;
+    }
+
+    #sign-in {
+        font-size: 14px;
+    }
+
+    #contact {
+        font-size: 16px;
+    }
+
+    /* =============== banner ================= */
+
+    .banner .container .row {
+        padding-top: 50px;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .banner .container .row .heading {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner .container .row .heading .main-heading {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .banner .container .row .heading .sub-heading {
+        width: 88%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner .container .row .heading .main-heading h1 {
+        font-size: 40px;
+    }
+
+    .banner .container .row .banner-part-2 {
+        height: 48%;
+    }
+
+    /* ====================== about us ========================= */
+
+    .about-us {
+        height: 650px;
+    }
+
+    .about-us .container .row .heading {
+        width: 40%;
+        height: 40%;
+        padding: 0px 30px;
+    }
+
+    .about-us .container .row #contact {
+        margin-top: 20px;
+    }
+
+    .about-us .container .row .about-part-2 #about-card-1 {
+        height: 55% !important;
+        width: 55% !important;
+        top: 20% !important;
+    }
+
+    .about-us .container .row .about-part-2 #about-card-1 img {
+        width: 100% !important;
+    }
+
+    .about-us .container .row .about-part-2 #about-card-2 {
+        width: 55%;
+        height: 55%;
+        left: 40% !important;
+        top: 30% !important;
+    }
+
+    .about-us .container .row .about-part-2 #about-card-2 img {
+        width: 100%;
+    }
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 1300px;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        height: 70%;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout {
+        width: 90%;
+        height: 90%;
+    }
+
+    .destinations .container .row .heading {
+        padding: 2%;
+        height: 15%;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content {
+        padding: 12px 8px !important;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content h3 {
+        font-size: 15px;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content p {
+        font-size: 14px;
+    }
+
+    /* ====================== contact ======================= */
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 80.3%;
+    }
+
+    /* =================== footer ==================== */
+
+    .footer-secondary .container {
+        padding: 0px 25px;
+    }
+
+    .footer-secondary .container .row {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .footer-primary .container .footer-primary-part-1 {
+        width: 50%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 {
+        width: 47%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form {
+        width: 70%;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu {
+        width: 60%;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-secondary .container .row .footer-social-menu {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* ===================== navbar ==================== */
+
+    .navbar .container .user-area {
+        width: 25% !important;
+    }
+
+    #sign-in {
+        padding: 5px;
+    }
+
+    #contact {
+        padding: 8px 12px;
+    }
+
+    /* =================== banner ===================== */
+
+    .banner-part-2{
+        height: 48% !important;
+    }
+
+    /* ====================== contact ======================= */
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 79.6%;
+    }
+
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 1200px;
+    }
+
+    .destinations .container .row .heading {
+        height: 20%;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        height: 75%;
+    }
+
+    /* ===================== faq ====================== */
+
+    .faq {
+        height: 1000px;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog {
+        height: 800px;
+        padding: 50px 0;
+    }
+
+    .blog .container .row .heading-part-1 {
+        width: 70% !important;
+    }
+
+    .blog .container .row .button #contact {
+        padding: 16px 18px;
+    }
+
+    .blog .container .row .blog-content {
+        height: 80%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout {
+        flex-wrap: wrap;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card {
+        width: 30%;
+        height: 80%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-image {
+        height: 50%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content {
+        height: 35%;
+    }
+
+    /* =================== footer ==================== */
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form #contact {
+        padding: 14px 18px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #log-in {
+        display: none;
+    }
+
+    #help {
+        display: none;
+    }
+
+    .menu-burger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* ============================= Navbar =========================== */
+
+    .menu-burger {
+        color: white;
+        display: inline-block;
+        width: 10%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .logo {
+        width: 20% !important;
+        display: flex !important;
+        justify-content: end !important;
+    }
+
+    .navbar .container {
+        position: relative;
+    }
+
+    .navbar .container .nav-menu {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        display: none;
+        top: 70px;
+        background-color: rgb(40, 52, 44);
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: start !important;
+        padding: 0px 40px;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .navbar .container .user-area {
+        width: 15% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar #sign-in {
+        display: none;
+    }
+
+    #log-in {
+        margin-right: 25px;
+    }
+
+    .navbar #contact {
+        display: none;
+    }
+
+    /* ====================== banner ====================== */
+
+    .banner {
+        height: 800px;
+    }
+
+    .banner .container .row .heading .main-heading h1 {
+        font-size: 35px;
+    }
+
+    .banner .container .row .heading .sub-heading p {
+        font-size: 14px;
+    }
+
+    .banner-part-2{
+        height: 50% !important;
+    }
+
+    /* ==================== our world ====================== */
+
+    .our-world {
+        height: 700px;
+    }
+
+    .our-world .container {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .our-world .heading {
+        height: 30% !important;
+        justify-content: center !important;
+    }
+
+    .our-world .heading .heading-part-text {
+        width: 90% !important;
+        align-items: center !important;
+        text-align: center;
+        padding: 12px 0 !important;
+    }
+
+    .our-world .heading .heading-part-text h2 {
+        font-size: 35px !important;
+    }
+
+    .our-world .heading .heading-part-text p {
+        font-size: 14px !important;
+    }
+
+    .our-world .container .row .our-world-card-layout {
+        height: 70%;
+    }
+
+    /* ======================= about us ======================= */
+
+    .about-us {
+        height: 500px;
+    }
+
+    .about-us .container .row .heading {
+        width: 60%;
+    }
+
+    .about-us .container .row .heading p.head {
+        font-size: 16px;
+    }
+
+    .about-us .container .row .heading h2 {
+        font-size: 35px;
+    }
+
+    .about-us .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .about-us .container .row .about-part-2 {
+        width: 50%;
+    }
+
+    /* ====================== contact ======================= */
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 73.6%;
+    }
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 1200px;
+    }
+
+    .destinations .container .row .heading {
+        height: 15%;
+    }
+
+    .destinations .container .row .heading h2 {
+        font-size: 35px;
+    }
+
+    .destinations .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        height: 80%;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout {
+        columns: 2 !important;
+        overflow-x: hidden;
+
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card {
+        width: 100% !important;
+        height: 30% !important;
+    }
+
+    /* ======================== faq ========================= */
+
+    .faq {
+        height: 950px;
+    }
+
+    .faq .container {
+        height: 100%;
+    }
+
+    .faq .container .row {
+        width: 90%;
+    }
+
+    .faq .container .row .heading {
+        height: 16%;
+        justify-content: space-between;
+        padding: 5% 0;
+    }
+
+    .faq .container .row .heading h2 {
+        font-size: 35px;
+    }
+
+    .faq .container .row .heading p {
+        font-size: 14px;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog {
+        height: 1200px;
+    }
+
+    .blog .container .row .heading {
+        padding: 2% 0;
+        height: 15%;
+    }
+
+    .blog .container .row .heading .heading-part-1 {
+        width: 80% !important;
+    }
+
+    .blog .container .row .heading .heading-part-1 h2 {
+        font-size: 35px;
+    }
+
+    .blog .container .row .heading .heading-part-1 p {
+        font-size: 14px;
+    }
+
+    .blog .container .row .button {
+        width: 20% !important;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout {
+        flex-wrap: wrap;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card {
+        width: 48%;
+        height: 45%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-image {
+        height: 60%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content {
+        height: 30%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button {
+        width: 100% !important;
+        height: 10%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button button {
+        text-align: start;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ==================== contact ====================== */
+
+    .contact .container .row .contact-layout {
+        padding: 64px 100px;
+    }
+
+    .contact .container .row .contact-layout .contact-content h2 {
+        font-size: 35px;
+    }
+
+    .contact .container .row .contact-layout .contact-content p {
+        font-size: 14px;
+    }
+
+    /* =================== footer ==================== */
+
+    footer {
+        height: 500px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .brand-logo {
+        width: 20%;
+        height: 9%;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-head p.head {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-item li a {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p.head {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input[type=text] {
+        font-size: 14px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input::placeholder {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form {
+        width: 70%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form #contact {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* =================== navbar ==================== */
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 12px !important;
+    }
+
+    /* ====================== banner ====================== */
+
+    .banner {
+        height: 600px;
+    }
+
+    .banner .container .row {
+        padding: 0 !important;
+    }
+
+    .banner .container .row .heading {
+        height: 45%;
+        padding: 20px 0;
+    }
+
+    .banner .container .row h1 {
+        font-size: 22px !important;
+        width: 80%;
+    }
+
+    .banner .container .row .heading .sub-heading p {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .banner .container .row .heading .sub-heading button {
+        padding: 6px 14px !important;
+        font-size: 12px !important;
+    }
+
+    .banner .container .row .banner-part-2 {
+        height: 48%;
+    }
+
+    /* ==================== our world ====================== */
+
+    .our-world {
+        height: 600px;
+    }
+
+    .swiper-button-prev {
+        left: 80% !important;
+    }
+
+    .our-world .heading .heading-part-text h2 {
+        font-size: 24px !important;
+    }
+
+    .our-world .heading .heading-part-text p {
+        font-size: 12px !important;
+    }
+
+    /* ======================= about us ======================= */
+
+    .about-us {
+        height: 600px;
+    }
+
+    .about-us .container .row {
+        flex-direction: column;
+    }
+
+    .about-us .container .row .heading {
+        width: 95%;
+        height: 30%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-us .container .row .heading p.head {
+        font-size: 14px;
+    }
+
+    .about-us .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .about-us .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .about-us .container .row .heading button {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+
+    .about-us .container .row .about-part-2 {
+        height: 70%;
+        width: 100%;
+    }
+
+    .about-us .container .row .about-part-2 .about-card-layout #plane {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    @keyframes plane-takeoff {
+        0% {
+            top: 50%;
+            left: 60%;
+
+        }
+
+        50% {
+            top: 30%;
+            left: 40%;
+
+        }
+
+        100% {
+            top: 20%;
+            left: 25%;
+        }
+    }
+
+
+    .about-us .container .row .about-part-2 .about-card-layout #plane img {
+        width: 100% !important;
+    }
+
+    .about-us .container .row .about-part-2 .about-card-layout #about-card-1 {
+        width: 35% !important;
+        height: 60% !important;
+        border-radius: 50px !important;
+        top: 15% !important;
+        left: 20% !important;
+    }
+
+    .about-us .container .row .about-part-2 .about-card-layout #about-card-2 {
+        width: 35%;
+        height: 60%;
+        border-radius: 40px !important;
+        top: 25% !important;
+        left: 45% !important;
+    }
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .destinations .container .row {
+        justify-content: center;
+    }
+
+    .destinations .container .row .heading {
+        height: 15%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .destinations .container .row .heading p.head {
+        font-size: 14px;
+    }
+
+    .destinations .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .destinations .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        height: 80%;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content h3 {
+        font-size: 14px !important;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content p {
+        font-size: 12px !important;
+    }
+
+    .destinations .container .row .destination-part-2 button {
+        font-size: 12px !important;
+        padding: 6px 12px !important;
+    }
+
+    /* ======================== faq ========================= */
+
+    .faq {
+        height: 650px;
+    }
+
+    .faq .container .row .heading {
+        height: 20%;
+        width: 80%;
+    }
+
+    .faq .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .faq .container .row .heading p {
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+    .faq .container .row .faq-content {
+        height: 80%;
+    }
+
+    .faq .container .row .faq-content .question-answers .question {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .faq .container .row .faq-content .question-answers .answer {
+        font-size: 12px;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog {
+        height: 800px;
+        padding: 0;
+    }
+
+    .blog .container .row .heading .heading-part-1 p.sub-head {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .blog .container .row .heading .heading-part-1 h2 {
+        font-size: 24px;
+    }
+
+    .blog .container .row .heading .heading-part-1 p {
+        font-size: 12px;
+    }
+
+    .blog .container .row .button #contact {
+        padding: 6px 12px !important;
+        font-size: 12px;
+    }
+
+    .blog .container .row .blog-content {
+        height: 85%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card {
+        padding: 8px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content {
+        height: 25%;
+        padding: 5px;
+        padding-top: 0 !important;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content h3 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content p {
+        font-size: 12px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button {
+        height: 8%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+
+
+    /* ====================== contact ======================= */
+
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 64.7%;
+    }
+
+    .contact .container .row .contact-layout {
+        justify-content: center;
+    }
+
+    .contact .container .row .contact-layout .contact-content {
+        height: 50%;
+        margin-bottom: 15px;
+    }
+
+    .contact .container .row .contact-layout .contact-content p.sub-head {
+        font-size: 14px;
+    }
+
+    .contact .container .row .contact-layout .contact-content h2 {
+        font-size: 24px;
+    }
+
+    .contact .container .row .contact-layout .contact-content p {
+        font-size: 12px;
+    }
+
+    .contact .container .row .contact-layout button {
+        font-size: 12px !important;
+        padding: 6px 12px !important;
+    }
+
+    /* =================== footer ==================== */
+
+    .footer-primary .container .footer-primary-part-1 {
+        width: 55%;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .brand-logo {
+        width: 18%;
+        height: 6%;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-head p.head {
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-item li a {
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 {
+        width: 40%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p.head {
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p {
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input[type=text] {
+        font-size: 12px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input::placeholder {
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form #contact {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form p {
+        font-size: 12px;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul li a {
+        font-size: 12px;
+    }
+
+    .footer-secondary .container .row .footer-social-menu {
+        width: 15%;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul li {
+        font-size: 12px;
+    }
+
+    .footer-secondary .container .row .footer-social-menu li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* ================== navbar =================== */
+
+    #log-in {
+        font-size: 14px !important;
+        margin-right: 15px;
+    }
+
+    #help {
+        font-size: 14px !important;
+    }
+
+    .navbar .logo {
+        margin-left: 15px;
+    }
+
+    /* ================== banner =================== */
+
+    .banner {
+        height: 420px;
+    }
+
+    .banner .container .row h1 {
+        font-size: 18px !important;
+        width: 80%;
+    }
+
+    .banner .container .row .heading{
+        padding: 30px 0 !important;
+        height: 70% !important;
+    }
+    
+    .banner .container .row .heading .sub-heading p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .banner .container .row .heading .sub-heading button {
+        padding: 4px 10px !important;
+        font-size: 10px !important;
+    }
+
+    .banner .container .row .banner-part-2{
+        height: 40% !important;
+    }
+
+    .banner-part-2 .swiper-pagination-bullet {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    /* ==================== our world ====================== */
+
+    .our-world {
+        height: 500px;
+    }
+
+    .swiper-button-prev {
+        left: 82% !important;
+        width: 28px !important;
+        height: 28px !important;
+        top: 93% !important;
+        color: black !important;
+    }
+
+    .swiper-button-prev::after {
+        content: none !important;
+        font-size: 8px !important;
+
+    }
+
+    .swiper-button-next {
+        top: 93% !important;
+        left: 90% !important;
+        width: 28px !important;
+        height: 28px !important;
+        color: black !important;
+    }
+
+    .swiper-button-next::after {
+        font-size: 8px !important;
+        content: none !important;
+
+    }
+
+    .our-world .heading {
+        height: 20% !important;
+        padding: 15px 0 !important;
+    }
+
+    .our-world .heading .heading-part-text {
+        height: 100% !important;
+        padding: 0 !important;
+    }
+
+    .our-world .heading .heading-part-text h2 {
+        font-size: 20px !important;
+    }
+
+    .our-world .heading .heading-part-text p {
+        font-size: 12px !important;
+    }
+
+    .our-world .container .row .our-world-card-layout {
+        height: 80%;
+    }
+
+    .our-world-card-layout .swiper-slide figure.circle {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    @keyframes p-zoom {
+        0% {
+            font-size: 10px;
+        }
+
+        50% {
+            font-size: 14px;
+        }
+
+        100% {
+            font-size: 16px;
+        }
+    }
+
+    .our-world .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .our-world .swiper-pagination-bullet-active {
+        width: 20px !important;
+    }
+
+    /* ======================= about us ======================= */
+
+    .about-us .container .row{
+        justify-content: space-between !important;
+    }
+    
+    .about-us .container .row .heading {
+        padding: 15px 0;
+        width: 80%;
+        height: 40% !important;
+    }
+
+    .about-us .container .row .heading p.head {
+        font-size: 12px;
+    }
+
+    .about-us .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .about-us .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .about-us .container .row .heading button {
+        padding: 6px 8px !important;
+        font-size: 10px !important;
+    }
+
+    .about-us .container .row .about-part-2{
+        height: 60% !important;
+    }
+    
+    .about-us .container .row .about-part-2 .about-card-layout #about-card-1{
+        width: 45% !important;
+        height: 65% !important;
+        left: 10% !important;
+    }
+
+    .about-us .container .row .about-part-2 .about-card-layout #about-card-2{
+        width: 45% !important;
+        height: 65% !important;
+    }
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 1200px;
+        overflow-x: hidden;
+    }
+
+    .destinations .container .row .heading{
+        height: 10%;
+    }
+
+    .destinations .container .row .heading p.head {
+        font-size: 10px;
+    }
+
+    .destinations .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .destinations .container .row .heading p {
+        font-size: 10px;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content{
+        padding: 15px !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content h3 {
+        font-size: 10px !important;
+        margin-bottom: 3px !important;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout{
+        width: 100%;
+        columns: 1 !important;
+        margin-left: 40%;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content p {
+        font-size: 12px !important;
+    }
+
+    .destinations .container .row .destination-part-2 button {
+        font-size: 10px !important;
+        padding: 6px 8px !important;
+    }
+
+    #paris{
+        display: none !important;
+    }
+
+    #bali{
+        width: 60% !important;
+        height: 40% !important;
+    }
+
+    #sydney{
+        display: none !important;
+    }
+
+    #tokyo{
+        width: 60% !important;
+        height: 40% !important;
+    }
+
+    #new-york {
+        display: none !important;
+    }
+
+    #barcelona{
+        display: none !important;
+    }
+
+    /* ======================== faq ========================= */
+
+    .faq {
+        height: 600px;
+    }
+
+    .faq .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .faq .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .faq .container .row .faq-content .question-answers .question {
+        font-size: 10px;
+        margin: 2px 0;
+    }
+
+    .faq .container .row .faq-content .question-answers .answer {
+        font-size: 10px;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog {
+        height: 900px !important;
+        padding: 0;
+    }
+
+    .blog .container .row .heading {
+        height: 12% !important;
+    }
+
+    .blog .container .row .heading .heading-part-1 p.sub-head {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .blog .container .row .heading .heading-part-1 h2 {
+        font-size: 20px;
+    }
+
+    .blog .container .row .heading .heading-part-1 p {
+        font-size: 10px;
+    }
+
+    .blog .container .row .button #contact {
+        padding: 6px 8px !important;
+        font-size: 10px;
+    }
+
+    .blog .container .row .blog-content {
+        height: 88%;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content h3 {
+        font-size: 10px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content p {
+        font-size: 12px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    /* ====================== contact ======================= */
+
+    .contact {
+        height: 300px;
+        padding: 0;
+    }
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 57.9%;
+    }
+
+    .contact .container .row .contact-layout {
+        padding: 50px 10px;
+        overflow: hidden;
+    }
+
+    .contact .container .row .contact-layout .contact-content {
+        height: 100%;
+    }
+
+    .contact .container .row .contact-layout .contact-content p.sub-head {
+        font-size: 10px;
+    }
+
+    .contact .container .row .contact-layout .contact-content h2 {
+        font-size: 20px;
+    }
+
+    .contact .container .row .contact-layout .contact-content p {
+        font-size: 10px;
+    }
+
+    .contact .container .row .contact-layout button {
+        font-size: 10px !important;
+    }
+
+    /* ================= footer =================== */
+
+    footer {
+        height: 700px !important;
+        padding: 10px 0;
+    }
+
+    .footer-primary {
+        height: 60% !important;
+    }
+
+    .footer-primary .container .row {
+        flex-direction: column;
+    }
+
+    .footer-primary .container .footer-primary-part-1 {
+        height: 60% !important;
+        width: 100%;
+        padding: 15px 5px 5px 5px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .brand-logo {
+        margin-top: 5px;
+        width: 60px !important;
+        height: 20px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .brand-logo img{
+        width: 100% !important;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list {
+        height: 90%;
+        width: 80%;
+        padding: 5px 0px 0 10px;
+
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-head {
+        height: 15%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 {
+        width: 100%;
+        padding: 0 5%;
+        height: 40%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p.head {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p {
+        font-size: 10px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form {
+        width: 75%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input[type=text] {
+        font-size: 10px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input::placeholder {
+        font-size: 10px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form #contact {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form p {
+        font-size: 10px;
+    }
+
+    .footer-secondary{
+        height: 40% !important;
+    }
+    
+    .footer-secondary .container {
+        height: 80% !important;
+    }
+
+    .footer-secondary .container .row {
+        height: 100% !important;
+        flex-direction: column !important;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu {
+        width: 100%;
+        height: 70% !important;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul {
+        justify-content: space-between !important;
+        width: 100% !important;
+        flex-wrap: wrap !important;
+    }
+
+
+    .footer-secondary .container .row .footer-secondary-menu ul li {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul li a {
+        font-size: 10px;
+    }
+
+    .footer-secondary .container .row .footer-social-menu {
+        width: 50%;
+        height: 20% !important;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul{
+        justify-content: space-between;
+    }
+
+}
+
+ @media screen and (max-width: 350px) {
+
+    /* =================== navbar ==================== */
+    #log-in {
+        font-size: 14px !important;
+        margin-right: 15px;
+    }
+
+    #help {
+        font-size: 14px !important;
+    }
+
+    .navbar .logo {
+        margin-left: 15px;
+    }
+
+    /* ================== banner =================== */
+
+    .banner {
+        height: 420px;
+    }
+
+    .banner .container .row h1 {
+        font-size: 18px !important;
+        width: 80%;
+    }
+
+    .banner .container .row .heading .sub-heading p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .banner .container .row .heading .sub-heading button {
+        padding: 4px 10px !important;
+        font-size: 10px !important;
+    }
+
+    .banner-part-2 .swiper-pagination-bullet {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    /* ==================== our world ====================== */
+
+    .our-world {
+        height: 400px;
+    }
+
+    .swiper-button-prev {
+        left: 82% !important;
+        width: 28px !important;
+        height: 28px !important;
+        top: 93% !important;
+        color: black !important;
+    }
+
+    .swiper-button-prev::after {
+        content: none !important;
+        font-size: 8px !important;
+
+    }
+
+    .swiper-button-next {
+        top: 93% !important;
+        left: 90% !important;
+        width: 28px !important;
+        height: 28px !important;
+        color: black !important;
+    }
+
+    .swiper-button-next::after {
+        font-size: 8px !important;
+        content: none !important;
+
+    }
+
+    .our-world .heading {
+        height: 20% !important;
+        padding: 15px 0 !important;
+    }
+
+    .our-world .heading .heading-part-text {
+        height: 100% !important;
+        padding: 0 !important;
+    }
+
+    .our-world .heading .heading-part-text h2 {
+        font-size: 20px !important;
+    }
+
+    .our-world .heading .heading-part-text p {
+        font-size: 12px !important;
+    }
+
+    .our-world .container .row .our-world-card-layout {
+        height: 80%;
+    }
+
+    .our-world-card-layout .swiper-slide figure.circle {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    @keyframes p-zoom {
+        0% {
+            font-size: 10px;
+        }
+
+        50% {
+            font-size: 14px;
+        }
+
+        100% {
+            font-size: 16px;
+        }
+    }
+
+    .our-world .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .our-world .swiper-pagination-bullet-active {
+        width: 20px !important;
+    }
+
+    /* ======================= about us ======================= */
+
+    .about-us .container .row .heading {
+        padding: 15px 0;
+        width: 80%;
+    }
+
+    .about-us .container .row .heading p.head {
+        font-size: 12px;
+    }
+
+    .about-us .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .about-us .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .about-us .container .row .heading button {
+        padding: 6px 8px !important;
+        font-size: 10px !important;
+    }
+
+    /* ===================== destination ====================== */
+
+    .destinations {
+        width: 100%;
+        height: 800px;
+    }
+
+    .destinations .container .row{
+        justify-content: space-between !important;
+    }
+    
+    .destinations .container .row .heading{
+        width: 90%;
+        height: 15% !important;
+        padding: 0 !important;
+    }
+    
+    .destinations .container .row .heading p.head {
+        font-size: 10px;
+    }
+
+    .destinations .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .destinations .container .row .heading p {
+        font-size: 10px;
+    }
+
+    .destinations .container .row .destination-part-2 {
+        justify-content: space-between !important;
+        height: 85% !important;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout{
+        height: 95% !important;
+        column-gap: 20px !important;
+        padding-left:  0 ;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card{
+        justify-content: center !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-image{
+        height: 65% !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content{
+        height: 20% !important;
+        padding: 0 !important;
+        padding-left: 5px !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content h3 {
+        font-size: 10px !important;
+        margin-bottom: 3px !important;
+    }
+
+    #tokyo{
+        height: 48% !important;
+    }
+
+    #bali{
+        height: 48% !important;
+    }
+    
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-content p {
+        font-size: 12px !important;
+    }
+
+    .destinations .container .row .destination-part-2 button {
+        font-size: 10px !important;
+        padding: 6px 8px !important;
+    }
+
+    .destinations .container .row .destination-part-2 .destination-card-layout .dest-card .card-image #social-react{
+        margin-bottom: 5px;
+    }
+
+    /* ======================== faq ========================= */
+
+    .faq {
+        height: 600px;
+    }
+
+    .faq .container .row .heading h2 {
+        font-size: 20px;
+    }
+
+    .faq .container .row .heading p {
+        font-size: 12px;
+    }
+
+    .faq .container .row .faq-content .question-answers .question {
+        font-size: 10px;
+        margin: 2px 0;
+    }
+
+    .faq .container .row .faq-content .question-answers .answer {
+        font-size: 10px;
+    }
+
+    /* ===================== blog ====================== */
+
+    .blog {
+        height: 800px !important;
+        padding: 0;
+    }
+
+    .blog .container .row .heading .heading-part-1 p.sub-head {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .blog .container .row .heading .heading-part-1 h2 {
+        font-size: 20px;
+    }
+
+    .blog .container .row .heading .heading-part-1 p {
+        font-size: 10px;
+    }
+
+    .blog .container .row .button #contact {
+        padding: 6px 8px !important;
+        font-size: 10px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-image{
+        height: 40% !important;
+    }
+    
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content{
+        height: 50% !important;
+    }
+    
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content h3 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .card-content p {
+        font-size: 12px;
+    }
+
+    .blog .container .row .blog-content .blog-card-layout .blog-card .button button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    /* ====================== contact ======================= */
+
+    .contact {
+        height: 300px;
+        padding: 0;
+    }
+
+    .contact .container .row .contact-layout #bg-image-4 {
+        left: 57.9%;
+    }
+
+    .contact .container .row .contact-layout {
+        padding: 64px 10px;
+        overflow: hidden;
+    }
+
+    .contact .container .row .contact-layout .contact-content {
+        height: 70%;
+    }
+
+    .contact .container .row .contact-layout .contact-content p.sub-head {
+        font-size: 10px;
+    }
+
+    .contact .container .row .contact-layout .contact-content h2 {
+        font-size: 20px;
+    }
+
+    .contact .container .row .contact-layout .contact-content p {
+        font-size: 10px;
+    }
+
+    .contact .container .row .contact-layout button {
+        font-size: 10px !important;
+    }
+
+    /* ================= footer =================== */
+
+    footer {
+        height: 550px !important;
+        padding: 10px 0;
+    }
+
+    .footer-primary {
+        height: 70%;
+    }
+
+    .footer-primary .container .row {
+        flex-direction: column;
+    }
+
+    .footer-primary .container .footer-primary-part-1 {
+        height: 60% !important;
+        width: 100%;
+        padding: 15px 5px 5px 5px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .brand-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list {
+        height: 90%;
+        width: 80%;
+        padding: 5px 0px 0 10px;
+
+    }
+
+    .footer-primary .container .footer-primary-part-1 .footer-menu .menu-list .list-head {
+        height: 15%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 {
+        width: 100%;
+        padding: 0 5%;
+        height: 40%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p.head {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .subscribe p {
+        font-size: 10px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form {
+        width: 75%;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input[type=text] {
+        font-size: 10px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form form input::placeholder {
+        font-size: 10px !important;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form .email-form #contact {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    .footer-primary .container .footer-primary-part-2 .contact-form p {
+        font-size: 10px;
+    }
+
+    .footer-secondary .container .row {
+        flex-direction: column !important;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu {
+        width: 100%;
+    }
+
+    .footer-secondary {
+        height: 20% !important;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu {
+        width: 75%;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul li {
+        font-size: 8px;
+    }
+
+    .footer-secondary .container .row .footer-secondary-menu ul li a {
+        font-size: 8px;
+    }
+
+}
